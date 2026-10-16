@@ -1,0 +1,30 @@
+# Dependências do Node.js 
+node_modules/
+
+# Arquivos JavaScript gerados pela compilação do TypeScript
+# (Como o professor quer apenas os códigos .ts, isso evita que os .js poluam seu repositório)
+*.js
+*.js.map
+
+# Pastas de build ou distribuição
+dist/
+build/
+
+# Logs de execução e erros
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Arquivos de ambiente e configurações locais
+.env
+.env.local
+
+# Arquivos específicos de editores de código (opcional, mas recomendado para o VS Code)
+.vscode/
+.idea/
